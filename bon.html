@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="good-style.css" rel="stylesheet" />
+    <script src="./blind-toggler.js" defer></script>
+    <title>Document Bien Crée</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="navigation">
+            <li><a tabindex="1" href="mauvais.html">Site Mauvais</a></li>
+            <li><a tabindex="0" href="bon.html">Bon Site</a></li>
+        </nav>
+    </header>
+    <main id="main">
+
+        <section id="content">
+            <section title="section du video" id="video">
+                <h1 tabindex="0" style="font-size: 2em;">Étymologie du mot "Internet"</h1>
+                <div id="videoContainer">
+                    <video controls autoplay>
+                        <source src="videos/etymologyVideo.mp4" type="video/mp4">
+                        Pas de support de video.
+                    </video>
+                </div>
+                <a href="https://www.youtube.com/watch?v=rbIa8LTuOA8&t=1s" target="_blank">Vidéo Originale</a>
+            </section>
+
+            <div class="image-section" id="image-first-section">
+                <div>
+                    <img tabindex="0" alt="une représentation du web autour du web."
+                        src="https://assets.bizclikmedia.net/668/f27761c9141bc008b6fbd7a2b730b163:afb720a0b1e39cdf281da2dfc5a87a8b/eewk32lkna6zr7p090420215443-jpeg.webp">
+                </div>
+                <div>
+                    <h2 tabindex="0">Le Web</h2>
+                    <p tabindex="0">Le mot "web", en relation avec l'internet, a été inventé en raison de la quantité considérable
+                        d'objets interconnectés. Lorsqu'elles sont représentées visuellement, les connexions qui
+                        constituent l'internet ressemblent à une toile d'araignée.</p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div>
+                    <img tabindex="0" alt="une graphique des câbles à fibres optiques transcontinentaux sous-marins."
+                        src="http://www.fiber-optic-transceiver-module.com/wp-content/uploads/2014/10/sumary-of-cable-system.jpg">
+                </div>
+                <div>
+                    <h2 tabindex="0">Câbles à fibres optiques transcontinentaux sous-marins</h2>
+                    <p tabindex="0">La majorité des gens pensent que lorsqu'ils utilisent Internet, ils se connectent à un satellite.
+                        C'est parfois le cas, mais la plupart du temps, vos données sont en fait transférées par des
+                        câbles qui traversent les continents, au fond de l'océan.</p>
+                </div>
+            </div>
+
+            <div class="image-section" id="image-last-section">
+                <div>
+                    <img tabindex="0" alt="une example d'une des premiers ordinateurs."
+                        src="https://www.pingdom.com/wp-content/uploads/2009/12/Colossus-Computer-1944.jpg">
+                </div>
+                <div>
+                    <h2 tabindex="0">Les premiers ordinateurs</h2>
+                    <p tabindex="0">Les premiers ordinateurs étaient grands et encombrants. Ils ne ressemblent en rien à ceux que
+                        nous utilisons aujourd'hui. L'ordinateur utilisé dans la première fusée envoyée sur la lune est
+                        bien moins puissant qu'un téléphone d'aujourd'hui.</p>
+                </div>
+            </div>
+            <button tabindex="0" id="blind-mode">Simulation Aveugle</button>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p tabindex="0"><em>Nous ne sommes pas propriétaires des images utilisées sur ce site. Elles sont utilisées à des fins
+            éducatives uniquement.</em></p>
+    </footer>
+</body>
+</body>
+
+</html>
